@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hint_main_up"
+        android:textSize="30sp"
+        android:paddingTop="50dp">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_email_up"
+            android:src="@drawable/ic_email_black_48dp"/>
+        <EditText
+            android:id="@+id/UserEmail_SignUp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_user_email"
+            android:inputType="textEmailAddress"
+            android:layout_toRightOf="@+id/img_email_up"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_password_up_1"
+            android:src="@drawable/ic_lock_black_48dp"/>
+        <EditText
+            android:id="@+id/Password1_SignUp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:layout_toRightOf="@+id/img_password_up_1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_password_up_2"
+            android:src="@drawable/ic_lock_black_48dp"/>
+        <EditText
+            android:id="@+id/Password2_SignUp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password_2"
+            android:inputType="textPassword"
+            android:layout_toRightOf="@id/img_password_up_2"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/SignUp_SignUp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/themeColor"
+        android:text="@string/sign_up"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

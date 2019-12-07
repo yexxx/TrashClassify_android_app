@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">trashClassify</string>
+    <string name="setting">系统设置</string>
+    <string name="photo_take">拍照搜索</string>
+    <string name="history">历史记录</string>
+    <string name="about">关于</string>
+    <string name="photo_select">从相册选择照片搜索</string>
+    <string name="search">文字搜索</string>
+
+    <string name="hint_main">请输入登陆信息</string>
+    <string name="hint_main_up">请输入注册信息</string>
+    <string name="hint_sign_up">没有账号?去</string>
+    <string name="hint_user_name_in">请输入您的账号或邮箱</string>
+    <string name="hint_user_name_up">请输入您的昵称(可以为空)</string>
+    <string name="hint_user_email">请输入您的邮箱</string>
+    <string name="hint_password">请输入您的密码</string>
+    <string name="hint_password_2">请再次输入您的密码</string>
+    <string name="sign_in">登录</string>
+    <string name="sign_up">注册</string>
+    <string name="history_photo">照片查询历史</string>
+    <string name="history_edit">编辑历史</string>
+    <string name="history_search">全部查询历史</string>
+    <string name="kitchen">厨余垃圾</string>
+    <string name="recycler">可回收物</string>
+    <string name="harmful">有害垃圾</string>
+    <string name="others">其它垃圾</string>
+
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/take_photo"
+        android:icon="@drawable/ic_photo_camera_white_48dp"
+        android:title="@string/photo_take"/>
+
+    <item
+        android:id="@+id/select_photo"
+        android:icon="@drawable/ic_photo_white_24dp"
+        android:title="@string/photo_select" />
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/search"
+        app:showAsAction="ifRoom"/>
+</menu>

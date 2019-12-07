@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/kitchen"
+        android:icon="@drawable/vegetables_156"
+        android:title="@string/kitchen" />
+
+    <item
+        android:id="@+id/recycle"
+        android:icon="@drawable/recycle_121"
+        android:title="@string/recycler" />
+
+    <item
+        android:id="@+id/harmful"
+        android:icon="@drawable/garbage_94"
+        android:title="@string/harmful" />
+
+    <item
+        android:id="@+id/others"
+        android:icon="@drawable/others"
+        android:title="@string/others" />
+
+</menu>

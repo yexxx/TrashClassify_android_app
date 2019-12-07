@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/themeColorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="主题色设置"
+        android:textColor="@color/colorAccent" />
+
+    <RelativeLayout
+        android:id="@+id/settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+        <TextView
+            android:id="@+id/color1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="#FF0000"/>
+
+        <TextView
+            android:id="@+id/color2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:background="#990033"/>
+
+        <TextView
+            android:id="@+id/color3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="80dp"
+            android:background="#FF66FF"/>
+
+        <TextView
+            android:id="@+id/color4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="120dp"
+            android:background="@color/themeColor"/>
+
+        <TextView
+            android:id="@+id/color5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="160dp"
+            android:background="#660099"/>
+
+        <TextView
+            android:id="@+id/color6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="200dp"
+            android:background="#FFFFCC"/>
+
+        <TextView
+            android:id="@+id/color7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="240dp"
+            android:background="#99FFFF"/>
+
+        <EditText
+            android:id="@+id/color8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="240dp"
+            android:hint="填写颜色"
+            android:textSize="10dp"
+            android:gravity="center"
+            android:background="@color/themeColor"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/dbText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:text="数据设置"
+        android:textColor="@color/colorAccent" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="立即同步垃圾数据"/>
+    </RelativeLayout>
+
+</LinearLayout>

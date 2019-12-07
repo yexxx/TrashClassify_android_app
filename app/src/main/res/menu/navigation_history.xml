@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/history_edit"
+        android:icon="@drawable/ic_mode_edit_white_24dp"
+        android:title="@string/history_edit" />
+
+    <item
+        android:id="@+id/history_photo"
+        android:icon="@drawable/ic_photo_white_24dp"
+        android:title="@string/history_photo" />
+
+    <item
+        android:id="@+id/history_search"
+        android:icon="@drawable/ic_search_white_24dp"
+        android:title="@string/history_search" />
+
+</menu>

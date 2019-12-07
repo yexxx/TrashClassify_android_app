@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/hint_main"
+        android:textSize="30sp"
+        android:paddingTop="50dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_user_name_in"
+            android:src="@drawable/ic_perm_identity_black_48dp"/>
+        <EditText
+            android:id="@+id/UserName_SignIn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_user_name_in"
+            android:inputType="text"
+            android:layout_toRightOf="@+id/img_user_name_in"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="40dp">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号登录"
+            android:id="@+id/cb_1"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邮箱登录"
+            android:id="@+id/cb_2"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/img_password_in"
+            android:src="@drawable/ic_lock_black_48dp"/>
+        <EditText
+            android:id="@+id/Password_SignIn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:layout_toRightOf="@+id/img_password_in"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/SignIn_SignIn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@color/themeColor"
+        android:text="@string/sign_in"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="@string/hint_sign_up"
+            android:id="@+id/noAccount">
+        </TextView>
+
+        <TextView
+            android:id="@+id/GoToSignUp_SignIn"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_gravity="right"
+            android:textColor="@color/blue"
+            android:layout_toRightOf="@+id/noAccount"/>
+    </RelativeLayout>
+
+</LinearLayout>
