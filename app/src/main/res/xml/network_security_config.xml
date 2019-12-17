@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
+
+    <base-config cleartextTrafficPermitted="true" />
+
     <domain-config>
         <domain includeSubdomains="true">example.com</domain>
         <pin-set expiration="2018-01-01">

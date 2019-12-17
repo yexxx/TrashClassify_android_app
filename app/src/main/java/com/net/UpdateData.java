@@ -11,7 +11,7 @@ import java.net.URL;
 public class UpdateData {
 
     public UpdateData(String data) throws IOException {
-        String Url = "http://149.129.106.120:8000/update";
+        String Url = "http://your_ip_here/update";
 
         //post data to server
         URL url = new URL(Url);

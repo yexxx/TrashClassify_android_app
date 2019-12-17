@@ -32,7 +32,7 @@ public class SignIn {
     }
 
     public void sendSignInInfo(TextView userName, TextView password, CheckBox checkBox1, CheckBox checkBox2){
-        final String baseUrl = "http://149.129.106.120:8000/signin/";
+        final String baseUrl = "http://your_ip_here/signin/";
         final String post = signInInputCheck(userName, password, checkBox1, checkBox2);
         if(!post.equals("")) {
             new Thread(new Runnable() {

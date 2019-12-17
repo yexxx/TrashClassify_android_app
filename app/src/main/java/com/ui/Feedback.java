@@ -85,7 +85,7 @@ public class Feedback {
                             public void run() {
                                 try {
                                     new UpdateData("method=" + method
-                                            + "&userid=" + context.getSharedPreferences("account", Context.MODE_PRIVATE).getString("id","10000")
+                                            + "&userid=" + context.getSharedPreferences("account", Context.MODE_PRIVATE).getInt("id", 10000)
                                             + "&name=" + str
                                             + "&mtype="
                                             + (trashTypesSelected[0]?"4":"")

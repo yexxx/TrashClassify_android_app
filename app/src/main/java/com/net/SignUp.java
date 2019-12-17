@@ -31,7 +31,7 @@ public class SignUp {
     }
 
     public void sendSignUpInfo(EditText email, EditText password1, EditText password2){
-        final String baseUrl = "http://149.129.106.120:8000/signup/";
+        final String baseUrl = "http://your_ip_here/signup/";
         if(!email.getText().toString().matches("^\\w+([-+.]\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$")){
             Toast.makeText(context, "邮箱格式错误：\n邮箱格式应为xxxxx@xxx.xxx", Toast.LENGTH_LONG).show();
         }
